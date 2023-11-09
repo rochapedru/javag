@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PlanoSaudeV2 {
 	static Scanner Leia = new Scanner(System.in);
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String nome;
@@ -12,14 +13,14 @@ public class PlanoSaudeV2 {
 		nome = Leia.nextLine();
 		System.out.println("1) 0 - 10 anos");
 		System.out.println("2) 10 - 29 anos");
-		System.out.println("3) 30 - 45 anos"); 
+		System.out.println("3) 30 - 45 anos");
 		System.out.println("4) 46 - 59 anos");
 		System.out.println("5) 60 - 65 anos");
 		System.out.println("6) Mais de 60");
 		System.out.println("insira faixa: ");
 		faixaIdade = Leia.nextInt();
-		
-		switch(faixaIdade) {
+
+		switch (faixaIdade) {
 		case 1:
 			System.out.printf("%s plano custa $ 100/mes ", nome);
 			break;
@@ -37,6 +38,9 @@ public class PlanoSaudeV2 {
 			break;
 		case 6:
 			System.out.printf("%s plano custa $ 1000/mes ", nome);
+			break;
+		default:
+			System.out.printf("selecione valor valido");
 			break;
 
 		}
