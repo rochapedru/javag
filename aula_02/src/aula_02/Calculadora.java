@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculadora {
 	
-	Scanner Leia = new Scanner(System.in);
+	static Scanner Leia = new Scanner(System.in);
 
 
 	public static void main(String[] args) {
