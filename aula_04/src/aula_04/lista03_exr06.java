@@ -11,13 +11,13 @@ public class lista03_exr06 {
 		do {
 			System.out.println("Digite numeros: ");
 			numero = Leia.nextInt();
-			if (numero % 3 == 0) {
+			if (numero % 3 == 0 && numero > 0) {
 				soma = soma + numero;
 				multiplos ++;
 			}
 		
 		}while(numero != 0);
-		if (numero == 0) {
+		if (multiplos > 0) {
 			media = soma / multiplos;
 			System.out.println("A media dos multiplos de 3 é: " + media);
 		}
