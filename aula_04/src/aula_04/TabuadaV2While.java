@@ -16,9 +16,7 @@ public class TabuadaV2While {
 			System.out.println(numero + " x " + contador + " = " + (numero * contador));
 			contador ++;
 		}
-		
-		
-		// TODO Auto-generated method stub
+			// TODO Auto-generated method stub
 		
 
 	}
