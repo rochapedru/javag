@@ -14,8 +14,14 @@ public class Pesquisa {
 			System.out.println("Digite idade: ");
 			idade = Leia.nextInt();
 			
-			System.out.println("1-fut , 2-vol, 3-basq, 4- outros");
-			esporte = Leia.nextInt();
+			do {
+				System.out.println("Digite seu esporte, 1 fut, 2 vol, 3 basr, 4 outro: ");
+				esporte = Leia.nextInt();
+				
+				if (esporte < 1 || esporte > 4)
+					System.out.println("entre 1 e 4");
+			}while(esporte < 1 || esporte > 4);
+			
 			// quantas gosta fut
 			if(esporte == 1) {
 				futebol ++;
