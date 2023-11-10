@@ -20,6 +20,7 @@ public class lista02_exr03 {
 		}while(idade != 0);
 		System.out.println("Menores que 21 " + menor + " pessoas. Maiores que 50 " + maior + " pessoas");
 		/** USANDO SO WHILE
+		 * 
 		int idade, menor = 0, maior = 0;
 		System.out.println("Digite idade: ");
 		idade = Leia.nextInt();
