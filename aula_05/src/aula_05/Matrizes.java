@@ -26,7 +26,6 @@ public class Matrizes {
 		
 		}
 		System.out.println("\n");
-		
 		for(int indiceI = 0; indiceI < matrizIrregular.length; indiceI ++) {
 			for(int indiceJ = 0; indiceJ < matrizIrregular[indiceI].length; indiceJ ++) {
 				/* pq indice[i] sao as linhas de baixo e cima, com 123,456, duas linhas, com indice linha pega os indices j,

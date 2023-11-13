@@ -8,8 +8,7 @@ public class vetores {
 	public static void main(String[] args) {
 		String[] pessoas = {"Luiza", "Aline", "Vinicius", "Antonio", "Vitor,", "Samara"};
 		String nomi;
-		System.out.println("Digite o nome da pessoas que quer procurar a posicao na Array");
-		nomi = Leia.nextLine();
+		
 		float[] notas = new float[pessoas.length];
 		
 		for(int indice = 0; indice < pessoas.length; indice ++) {
