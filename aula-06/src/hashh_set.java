@@ -29,9 +29,9 @@ public class hashh_set {
 		
 		frutas.remove("Morango");
 		System.out.println(frutas);
-		
+		// criando interacao com iiterator
 		Iterator<String> iFrutas = frutas.iterator();
-		
+		// hasnext interaator para collection, so sequencial
 		while(iFrutas.hasNext()) 
 			System.out.println(iFrutas.next());
 		// Criamos Array list
