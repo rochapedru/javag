@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class exr01_list {
@@ -6,12 +7,13 @@ public class exr01_list {
 	public static void main(String[] args) {
 		ArrayList<String> cores = new ArrayList<String>();
 		String cor;
-		for(int i = 0; i < 4; i ++) {
+		for(int i = 0; i <= 4; i ++) {
 			System.out.println("Digite uma cor: ");
 			cor = Leia.nextLine();
-			cores.add(cor);
-			
+			cores.add(cor);		
 		}
-	System.out.println(cores);
+		System.out.println(cores);
+		Collections.sort(cores);
+		System.out.println("Ordenadas" + cores);
 	}
 }
