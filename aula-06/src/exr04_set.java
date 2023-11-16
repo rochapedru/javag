@@ -8,7 +8,7 @@ public class exr04_set {
 	public static void main(String[] args) {
 		HashSet<Integer> valores = new HashSet<Integer>();
 		
-		int num;
+		int num,numi;
 		
 		for(int i = 0; i <= 9; i ++) {
 			System.out.println("Digite um numero: ");
@@ -16,13 +16,19 @@ public class exr04_set {
 			valores.add(num);
 		
 		}
-		ArrayList<Integer> numList = new ArrayList<Integer>();
-		Iterator<Integer> z = valores.iterator();
-		while(z.hasNext()) {
-			numList.add(z.next());
+		System.out.println(valores);
+		for(int i = 0; i <= 9; i ++) {
+			System.out.println("Qual deseja procurar: ");
+			numi = Leia.nextInt();
+
+			if (valores.contains(numi)) {
+				System.out.println("O numero " + numi + " foi encontrado");
+			}
+			if (!valores.contains(numi)){
+				System.out.println("O numero " + numi + " não foi encontradona");
+			}
+			
 		}
 		
-		numList.sort(null);
-		System.out.println(numList);
 	}
 }

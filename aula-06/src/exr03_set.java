@@ -16,7 +16,6 @@ public class exr03_set {
 			if (!valores.contains(num)) {
 				valores.add(num);
 			}
-		
 		}
 		ArrayList<Integer> numList = new ArrayList<Integer>();
 		Iterator<Integer> z = valores.iterator();
