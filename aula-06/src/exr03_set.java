@@ -13,7 +13,9 @@ public class exr03_set {
 		for(int i = 0; i <= 9; i ++) {
 			System.out.println("Digite um numero: ");
 			num = Leia.nextInt();
-			valores.add(num);
+			if (!valores.contains(num)) {
+				valores.add(num);
+			}
 		
 		}
 		ArrayList<Integer> numList = new ArrayList<Integer>();
