@@ -22,7 +22,9 @@ public class exr04_set {
 			numi = Leia.nextInt();
 
 			if (valores.contains(numi)) {
+				
 				System.out.println("O numero " + numi + " foi encontrado");
+			
 			}
 			if (!valores.contains(numi)){
 				System.out.println("O numero " + numi + " não foi encontradona");
